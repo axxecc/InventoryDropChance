@@ -1,0 +1,12 @@
+# Auto-generated plugin.yml, generated at 2025/06/15 12:28:01 by me.playgamesgo.plugin.annotation.PluginAnnotationProcessor
+
+main: me.playgamesgo.inventorydropchance.InventoryDropChance
+name: InventoryDropChance
+version: 1.6.1-hotfix-1
+description: Change the drop rate of items in the inventory on death
+author: playgamesgo
+softdepend:
+- ItemsAdder
+commands: {}
+permissions: {}
+api-version: '1.16'

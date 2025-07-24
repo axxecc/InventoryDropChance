@@ -15,11 +15,6 @@ import me.playgamesgo.inventorydropchance.configs.Config;
 import me.playgamesgo.inventorydropchance.configs.LegacyConfig;
 import me.playgamesgo.inventorydropchance.configs.GlobalConfig;
 import me.playgamesgo.inventorydropchance.configs.LangConfig;
-import me.playgamesgo.plugin.annotation.dependency.SoftDependency;
-import me.playgamesgo.plugin.annotation.plugin.ApiVersion;
-import me.playgamesgo.plugin.annotation.plugin.Description;
-import me.playgamesgo.plugin.annotation.plugin.Plugin;
-import me.playgamesgo.plugin.annotation.plugin.author.Author;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -32,11 +27,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-@Plugin(name = "InventoryDropChance", version = "${version}")
-@ApiVersion(ApiVersion.Target.v1_16)
-@Author("playgamesgo")
-@Description("Change the drop rate of items in the inventory on death")
-@SoftDependency("ItemsAdder")
+
 public final class InventoryDropChance extends JavaPlugin {
     public static InventoryDropChance instance;
     public static LiteCommands<CommandSender> liteCommands;
